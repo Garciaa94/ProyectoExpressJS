@@ -9,7 +9,7 @@ GET http://localhost:3000/items/item
 Content-Type: application/json
 
 {
-    "itemId":"5f87ebadbf386d24f40c286b"
+    "itemId":"60f89467616f1d41cc04d6c4"
 }
 
 ###
@@ -21,10 +21,10 @@ POST http://localhost:3000/items
 Content-Type: application/json
 
 {
-    "title": "Pokemon Oro",
+    "title": "Pokemon Plata",
     "price": 19.99,
-    "stock":10,
-    "image": "pokemon-oro.jpg"
+    "stock":15,
+    "image": "pokemon-plata.jpg"
 }
 
 ###
@@ -33,8 +33,8 @@ Content-Type: application/json
 
 [
     {
-        "id": "5f87ebadbf386d24f40c286b",
-        "qty": 2
+        "id": "60f89467616f1d41cc04d6c4",
+        "qty": 2 // cantidad
     }
 ]
 

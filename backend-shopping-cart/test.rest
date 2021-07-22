@@ -14,7 +14,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/img/pokemon-rojo.jpg
+GET http://localhost:3000/users
 
 ###
 POST http://localhost:3000/items
@@ -50,4 +50,29 @@ Content-Type: application/json
             "qty": 2
         }
     ]
+}
+
+//
+
+###
+POST  http://localhost:3000/users
+Content-Type: application/json
+
+ {
+    "id":"03",
+    "name":"Eva",
+    "lastname":"Quiñonez",
+    "address":"Esmeraldas-Ecuador",
+    "historyG":"Compra realizada el: 01/07/2021"
+  }
+
+###
+GET   http://localhost:3000/users
+
+###
+DELETE   http://localhost:3000/users/user
+Content-Type: application/json
+
+{
+    "userId":"60f99d228fa95f0604c9ab86"
 }

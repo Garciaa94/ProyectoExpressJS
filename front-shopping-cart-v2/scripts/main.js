@@ -34,7 +34,7 @@ function createDomElement(item) { // datos de cada objeto Mdb
                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
             </div>
             <div class="item-details-stock">
-                <h4 class="item-stock">${item.stock}</h4>
+                <h4 class="item-stock">Stock ${item.stock}</h4>
             </div>
         </div>
     </div>`;

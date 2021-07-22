@@ -19,6 +19,7 @@ const itemsRoutes = require('./routes/items');
 const imgRoutes = require('./routes/img');
 const paymentsIntentRoutes = require('./routes/paymentsIntent');
 const ordersRoutes = require('./routes/orders');
+const usersRoutes = require('./routes/users');
 
 // MIDDLEWARE
 app.use(cors());
@@ -27,8 +28,8 @@ app.use(express.json());
 app.use('/items', itemsRoutes);
 app.use('/img', imgRoutes);
 app.use('/create-payment-intent', paymentsIntentRoutes);
-app.use('/order', ordersRoutes);
-
+app.use('/orders', ordersRoutes);
+app.use('/users', usersRoutes);
 // Rutas
 app.get('/', (req, res) => {
   res.send('HOME!');

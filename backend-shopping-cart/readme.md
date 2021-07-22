@@ -11,3 +11,7 @@ STRIPE_SK = sk_test_51JFlvzHoj5UGc1YElDdbVRIuhvzPtFWXMMSrEzGU5aPPTapgTc1WGNk1EqY
 2 - Npm i - para instalar paquetes necesarios
 
 3 - Npm start - inicia el servidor
+
+4 - Almacenamiento del API desarrollada en MongoDB Atlas
+![image](https://drive.google.com/uc?export=view&id=1bXsVzG9FY1vUXMhCqXPNeV1XIsL2rGrH)
+1bXsVzG9FY1vUXMhCqXPNeV1XIsL2rGrH

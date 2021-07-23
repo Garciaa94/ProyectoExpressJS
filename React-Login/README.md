@@ -1,20 +1,20 @@
-## React Basic Authentication Example
+## Frontend de Login básica de React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto se inició con [Create React App] (https://github.com/facebook/create-react-app).
 
-## Project setup
+## Configuración del proyecto
 
-In the project directory, you can run:
-
+En el directorio del proyecto, puede ejecutar:
 ```
 npm install
 # or
 yarn install
 ```
 
-or
 
-### Compiles and hot-reloads for development
+o
+
+### Compila y recarga en caliente para el desarrollo
 
 ```
 npm start
@@ -22,6 +22,7 @@ npm start
 yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.
+Abra [http: // localhost: 3000] (http: // localhost: 3000) para verlo en el navegador.
+
+La página se recargará si realiza modificaciones. 

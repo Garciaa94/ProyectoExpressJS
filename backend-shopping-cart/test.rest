@@ -76,3 +76,11 @@ Content-Type: application/json
 {
     "userId":"60f99d228fa95f0604c9ab86"
 }
+
+###
+DELETE   http://localhost:3000/items/item
+Content-Type: application/json
+
+{
+    "itemId":"60f8c317aa3d7b41b4b78edb"
+}

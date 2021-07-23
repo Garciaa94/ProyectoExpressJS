@@ -1,5 +1,6 @@
 const express = require('express');
 const getItemById = require('../data/getItemById');
+const delItemById = require('../data/getItemById');
 const router = express.Router();
 
 //MODELS
@@ -42,5 +43,16 @@ router.post('/', async (req, res) => {
     res.json({ message: err.message });
   }
 });
-
+// DELETE USER/*
+router.delete('/item', async (req, res) => {
+  const itemId = req.body.itemId;
+  try {
+    const itemFromDB = await delItemById(itemId);
+    res.json(itemFromDB); 
+    console.log("delete success");
+  } catch (err) {
+    res.json({ message: err.message });
+    console.log("delete error");
+  }
+});
 module.exports = router;
